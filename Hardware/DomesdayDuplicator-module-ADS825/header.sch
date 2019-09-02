@@ -1,0 +1,264 @@
+EESchema Schematic File Version 4
+LIBS:DomesdayDuplicator-module-ADS825-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "Domesday Duplicator Module - ADS825"
+Date "2019-09-02"
+Rev "1.0"
+Comp "https://www.domesday86.com"
+Comment1 "(c) 2019 Simon Inns"
+Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+Comment3 "Headers"
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J601
+U 1 1 5D6D02A7
+P 5200 4000
+F 0 "J601" H 5250 4617 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 5250 4526 50  0000 C CNN
+F 2 "" H 5200 4000 50  0001 C CNN
+F 3 "~" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J602
+U 1 1 5D6D0FBD
+P 7650 4000
+F 0 "J602" H 7700 4617 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 7700 4526 50  0000 C CNN
+F 2 "" H 7650 4000 50  0001 C CNN
+F 3 "~" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3600 4750 3600
+Wire Wire Line
+	5000 3700 4750 3700
+Wire Wire Line
+	5000 3800 4750 3800
+Wire Wire Line
+	5000 3900 4750 3900
+Wire Wire Line
+	5000 4000 4750 4000
+Wire Wire Line
+	5000 4100 4750 4100
+Wire Wire Line
+	5000 4400 4750 4400
+Wire Wire Line
+	5500 3600 5750 3600
+Wire Wire Line
+	5500 3700 5750 3700
+Wire Wire Line
+	5500 3800 5750 3800
+Wire Wire Line
+	5500 3900 5750 3900
+Wire Wire Line
+	5500 4000 5750 4000
+Text Label 4800 3600 0    50   ~ 0
+DB0
+Text Label 5500 3600 0    50   ~ 0
+DB1
+Text Label 4800 3700 0    50   ~ 0
+DB2
+Text Label 5500 3700 0    50   ~ 0
+DB3
+Text Label 4800 3800 0    50   ~ 0
+DB4
+Text Label 5500 3800 0    50   ~ 0
+DB5
+Text Label 4800 3900 0    50   ~ 0
+DB6
+Text Label 5500 3900 0    50   ~ 0
+DB7
+Text Label 4800 4000 0    50   ~ 0
+DB8
+Text Label 5500 4000 0    50   ~ 0
+DB9
+Text Label 4800 4100 0    50   ~ 0
+DB10
+Text Label 4800 4400 0    50   ~ 0
+CLK
+Text Label 5500 4400 0    50   ~ 0
+5V
+Text Label 4800 4500 0    50   ~ 0
+3V3
+Text Label 5500 4500 0    50   ~ 0
+GND
+NoConn ~ 7450 3600
+NoConn ~ 7450 3700
+NoConn ~ 7450 3800
+NoConn ~ 7450 3900
+NoConn ~ 7450 4000
+NoConn ~ 7450 4100
+NoConn ~ 7450 4200
+NoConn ~ 7450 4300
+NoConn ~ 7450 4400
+NoConn ~ 7450 4500
+NoConn ~ 7950 3600
+NoConn ~ 7950 3700
+NoConn ~ 7950 3800
+NoConn ~ 7950 3900
+NoConn ~ 7950 4000
+NoConn ~ 7950 4100
+NoConn ~ 7950 4200
+NoConn ~ 7950 4300
+NoConn ~ 7950 4400
+NoConn ~ 7950 4500
+NoConn ~ 5500 4100
+NoConn ~ 5500 4200
+NoConn ~ 5500 4300
+NoConn ~ 5000 4300
+NoConn ~ 5000 4200
+Entry Wire Line
+	4650 3500 4750 3600
+Entry Wire Line
+	4650 3600 4750 3700
+Entry Wire Line
+	4650 3700 4750 3800
+Entry Wire Line
+	4650 3800 4750 3900
+Entry Wire Line
+	4650 3900 4750 4000
+Entry Wire Line
+	4650 4000 4750 4100
+Entry Wire Line
+	5750 3600 5850 3700
+Entry Wire Line
+	5750 3700 5850 3800
+Entry Wire Line
+	5750 3800 5850 3900
+Entry Wire Line
+	5750 3900 5850 4000
+Entry Wire Line
+	5750 4000 5850 4100
+Wire Bus Line
+	5850 3250 4650 3250
+Wire Bus Line
+	4650 3250 4250 3250
+Connection ~ 4650 3250
+Text HLabel 4750 4400 0    50   Output ~ 0
+CLK
+Text HLabel 4250 3250 0    50   Input ~ 0
+DB[0..10]
+Text Label 5050 3250 0    50   ~ 0
+DB[0..10]
+$Comp
+L power:+3V3 #PWR0601
+U 1 1 5D6FD39D
+P 4250 4200
+F 0 "#PWR0601" H 4250 4050 50  0001 C CNN
+F 1 "+3V3" H 4265 4373 50  0000 C CNN
+F 2 "" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0602
+U 1 1 5D6FE7BE
+P 6100 4200
+F 0 "#PWR0602" H 6100 4050 50  0001 C CNN
+F 1 "+5VA" H 6115 4373 50  0000 C CNN
+F 2 "" H 6100 4200 50  0001 C CNN
+F 3 "" H 6100 4200 50  0001 C CNN
+	1    6100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0603
+U 1 1 5D6FEA69
+P 6100 4650
+F 0 "#PWR0603" H 6100 4400 50  0001 C CNN
+F 1 "GNDA" H 6105 4477 50  0000 C CNN
+F 2 "" H 6100 4650 50  0001 C CNN
+F 3 "" H 6100 4650 50  0001 C CNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4400 6100 4200
+Wire Wire Line
+	5500 4400 6100 4400
+Wire Wire Line
+	6100 4500 6100 4650
+Wire Wire Line
+	5500 4500 6100 4500
+Wire Wire Line
+	4250 4500 4250 4200
+Wire Wire Line
+	4250 4500 5000 4500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D704F07
+P 6500 4200
+F 0 "#FLG0101" H 6500 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 4373 50  0000 C CNN
+F 2 "" H 6500 4200 50  0001 C CNN
+F 3 "~" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D705FDB
+P 3900 4200
+F 0 "#FLG0102" H 3900 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 4373 50  0000 C CNN
+F 2 "" H 3900 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4200 6500 4400
+Wire Wire Line
+	6500 4400 6100 4400
+Connection ~ 6100 4400
+Wire Wire Line
+	3900 4200 3900 4500
+Wire Wire Line
+	3900 4500 4250 4500
+Connection ~ 4250 4500
+Wire Wire Line
+	6100 4500 6500 4500
+Wire Wire Line
+	6500 4500 6500 4650
+Connection ~ 6100 4500
+$Comp
+L power:GND #PWR0101
+U 1 1 5D70D0A7
+P 6500 4650
+F 0 "#PWR0101" H 6500 4400 50  0001 C CNN
+F 1 "GND" H 6505 4477 50  0000 C CNN
+F 2 "" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5D70D260
+P 6900 4650
+F 0 "#FLG0103" H 6900 4725 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 4823 50  0000 C CNN
+F 2 "" H 6900 4650 50  0001 C CNN
+F 3 "~" H 6900 4650 50  0001 C CNN
+	1    6900 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4650 6900 4500
+Wire Wire Line
+	6900 4500 6500 4500
+Connection ~ 6500 4500
+Wire Bus Line
+	5850 3250 5850 4100
+Wire Bus Line
+	4650 3250 4650 4000
+$EndSCHEMATC
