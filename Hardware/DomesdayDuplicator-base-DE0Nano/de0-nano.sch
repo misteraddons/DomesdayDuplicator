@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:DomesdayDuplicator-base-DE0Nano-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title "Domesday Duplicator Base - DE0-Nano/FX3"
 Date "2019-09-02"
 Rev "1.0"

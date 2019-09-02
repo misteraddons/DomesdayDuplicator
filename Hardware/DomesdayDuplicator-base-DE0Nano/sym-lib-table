@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name DE0-Nano-Headers)(type Legacy)(uri ${KIPRJMOD}/DE0-Nano-Headers.lib)(options "")(descr ""))
+  (lib (name Cypress-FX3-Headers)(type Legacy)(uri ${KIPRJMOD}/Cypress-FX3-Headers.lib)(options "")(descr ""))
 )

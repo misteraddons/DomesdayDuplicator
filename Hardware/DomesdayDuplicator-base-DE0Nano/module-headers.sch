@@ -1,0 +1,425 @@
+EESchema Schematic File Version 4
+LIBS:DomesdayDuplicator-base-DE0Nano-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "Domesday Duplicator Base - DE0-Nano/FX3"
+Date "2019-09-02"
+Rev "1.0"
+Comp "https://www.domesday86.com"
+Comment1 "(c) 2019 Simon Inns"
+Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+Comment3 "Module Headers"
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 5D795A46
+P 5850 2750
+F 0 "J?" H 5900 3367 50  0000 C CNN
+F 1 "MOD0 Back" H 5900 3276 50  0000 C CNN
+F 2 "" H 5850 2750 50  0001 C CNN
+F 3 "~" H 5850 2750 50  0001 C CNN
+	1    5850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 5D7970BB
+P 7550 2750
+F 0 "J?" H 7600 3367 50  0000 C CNN
+F 1 "MOD0 Front" H 7600 3276 50  0000 C CNN
+F 2 "" H 7550 2750 50  0001 C CNN
+F 3 "~" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7350 2350
+NoConn ~ 7350 2450
+NoConn ~ 7350 2550
+NoConn ~ 7350 2650
+NoConn ~ 7350 2750
+NoConn ~ 7350 2850
+NoConn ~ 7350 2950
+NoConn ~ 7350 3050
+NoConn ~ 7350 3150
+NoConn ~ 7350 3250
+NoConn ~ 7850 2350
+NoConn ~ 7850 2450
+NoConn ~ 7850 2550
+NoConn ~ 7850 2650
+NoConn ~ 7850 2750
+NoConn ~ 7850 2850
+NoConn ~ 7850 2950
+NoConn ~ 7850 3050
+NoConn ~ 7850 3150
+NoConn ~ 7850 3250
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5D7A5C85
+P 4750 3150
+F 0 "#PWR?" H 4750 3000 50  0001 C CNN
+F 1 "+3.3VA" H 4765 3323 50  0000 C CNN
+F 2 "" H 4750 3150 50  0001 C CNN
+F 3 "" H 4750 3150 50  0001 C CNN
+	1    4750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D7A5E03
+P 6950 3150
+F 0 "#PWR?" H 6950 3000 50  0001 C CNN
+F 1 "+5VA" H 6965 3323 50  0000 C CNN
+F 2 "" H 6950 3150 50  0001 C CNN
+F 3 "" H 6950 3150 50  0001 C CNN
+	1    6950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7A5F96
+P 6300 3400
+F 0 "#PWR?" H 6300 3150 50  0001 C CNN
+F 1 "GND" H 6305 3227 50  0000 C CNN
+F 2 "" H 6300 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 3150 0    50   BiDi ~ 0
+MOD0_CLK
+Wire Wire Line
+	5650 3250 4750 3250
+Wire Wire Line
+	4750 3250 4750 3150
+Wire Wire Line
+	6150 3250 6300 3250
+Wire Wire Line
+	6300 3250 6300 3400
+Wire Wire Line
+	5550 3150 5650 3150
+Wire Wire Line
+	5650 2350 5150 2350
+Wire Wire Line
+	5650 2450 5150 2450
+Wire Wire Line
+	5650 2550 5150 2550
+Wire Wire Line
+	5650 2650 5150 2650
+Wire Wire Line
+	5650 2750 5150 2750
+Wire Wire Line
+	5650 2850 5150 2850
+Wire Wire Line
+	6150 2350 6650 2350
+Wire Wire Line
+	6150 2450 6650 2450
+Wire Wire Line
+	6150 2550 6650 2550
+Wire Wire Line
+	6150 2650 6650 2650
+Wire Wire Line
+	6150 2750 6650 2750
+Text Label 5250 2350 0    50   ~ 0
+MOD0_D0
+Text Label 6200 2350 0    50   ~ 0
+MOD0_D1
+Text Label 5250 2450 0    50   ~ 0
+MOD0_D2
+Text Label 6200 2450 0    50   ~ 0
+MOD0_D3
+Text Label 5250 2550 0    50   ~ 0
+MOD0_D4
+Text Label 6200 2550 0    50   ~ 0
+MOD0_D5
+Text Label 5250 2650 0    50   ~ 0
+MOD0_D6
+Text Label 6200 2650 0    50   ~ 0
+MOD0_D7
+Text Label 5250 2750 0    50   ~ 0
+MOD0_D8
+Text Label 5250 2850 0    50   ~ 0
+MOD0_D10
+Text Label 6200 2750 0    50   ~ 0
+MOD0_D9
+Wire Wire Line
+	6150 2850 6650 2850
+Wire Wire Line
+	6150 2950 6650 2950
+Wire Wire Line
+	6150 3050 6650 3050
+Wire Wire Line
+	5650 2950 5150 2950
+Wire Wire Line
+	5650 3050 5150 3050
+Text Label 6200 2850 0    50   ~ 0
+MOD0_D11
+Text Label 5250 2950 0    50   ~ 0
+MOD0_D12
+Text Label 6200 2950 0    50   ~ 0
+MOD0_D13
+Text Label 5250 3050 0    50   ~ 0
+MOD0_D14
+Text Label 6200 3050 0    50   ~ 0
+MOD0_D15
+Entry Wire Line
+	5050 2250 5150 2350
+Entry Wire Line
+	5050 2350 5150 2450
+Entry Wire Line
+	5050 2450 5150 2550
+Entry Wire Line
+	5050 2550 5150 2650
+Entry Wire Line
+	5050 2650 5150 2750
+Entry Wire Line
+	5050 2750 5150 2850
+Entry Wire Line
+	5050 2850 5150 2950
+Entry Wire Line
+	5050 2950 5150 3050
+Entry Wire Line
+	6650 2350 6750 2450
+Entry Wire Line
+	6650 2450 6750 2550
+Entry Wire Line
+	6650 2550 6750 2650
+Entry Wire Line
+	6650 2650 6750 2750
+Entry Wire Line
+	6650 2750 6750 2850
+Entry Wire Line
+	6650 2850 6750 2950
+Entry Wire Line
+	6650 2950 6750 3050
+Wire Wire Line
+	6150 3150 6400 3150
+Wire Wire Line
+	6400 3150 6400 3250
+Wire Wire Line
+	6400 3250 6950 3250
+Wire Wire Line
+	6950 3150 6950 3250
+Entry Wire Line
+	6650 3050 6750 3150
+Wire Bus Line
+	6750 1850 5050 1850
+Connection ~ 5050 1850
+Wire Bus Line
+	5050 1850 4550 1850
+Text Label 5650 1850 0    50   ~ 0
+MOD0_D[0..15]
+Text HLabel 4550 1850 0    50   BiDi ~ 0
+MOD0_D[0..15]
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 5D7C7C4F
+P 5850 5050
+F 0 "J?" H 5900 5667 50  0000 C CNN
+F 1 "MOD1 Back" H 5900 5576 50  0000 C CNN
+F 2 "" H 5850 5050 50  0001 C CNN
+F 3 "~" H 5850 5050 50  0001 C CNN
+	1    5850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 5D7C7C59
+P 7550 5050
+F 0 "J?" H 7600 5667 50  0000 C CNN
+F 1 "MOD1 Front" H 7600 5576 50  0000 C CNN
+F 2 "" H 7550 5050 50  0001 C CNN
+F 3 "~" H 7550 5050 50  0001 C CNN
+	1    7550 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7350 4650
+NoConn ~ 7350 4750
+NoConn ~ 7350 4850
+NoConn ~ 7350 4950
+NoConn ~ 7350 5050
+NoConn ~ 7350 5150
+NoConn ~ 7350 5250
+NoConn ~ 7350 5350
+NoConn ~ 7350 5450
+NoConn ~ 7350 5550
+NoConn ~ 7850 4650
+NoConn ~ 7850 4750
+NoConn ~ 7850 4850
+NoConn ~ 7850 4950
+NoConn ~ 7850 5050
+NoConn ~ 7850 5150
+NoConn ~ 7850 5250
+NoConn ~ 7850 5350
+NoConn ~ 7850 5450
+NoConn ~ 7850 5550
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5D7C7C77
+P 4750 5450
+F 0 "#PWR?" H 4750 5300 50  0001 C CNN
+F 1 "+3.3VA" H 4765 5623 50  0000 C CNN
+F 2 "" H 4750 5450 50  0001 C CNN
+F 3 "" H 4750 5450 50  0001 C CNN
+	1    4750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D7C7C81
+P 6950 5450
+F 0 "#PWR?" H 6950 5300 50  0001 C CNN
+F 1 "+5VA" H 6965 5623 50  0000 C CNN
+F 2 "" H 6950 5450 50  0001 C CNN
+F 3 "" H 6950 5450 50  0001 C CNN
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7C7C8B
+P 6300 5700
+F 0 "#PWR?" H 6300 5450 50  0001 C CNN
+F 1 "GND" H 6305 5527 50  0000 C CNN
+F 2 "" H 6300 5700 50  0001 C CNN
+F 3 "" H 6300 5700 50  0001 C CNN
+	1    6300 5700
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 5450 0    50   BiDi ~ 0
+MOD1_CLK
+Wire Wire Line
+	5650 5550 4750 5550
+Wire Wire Line
+	4750 5550 4750 5450
+Wire Wire Line
+	6150 5550 6300 5550
+Wire Wire Line
+	6300 5550 6300 5700
+Wire Wire Line
+	5550 5450 5650 5450
+Wire Wire Line
+	5650 4650 5150 4650
+Wire Wire Line
+	5650 4750 5150 4750
+Wire Wire Line
+	5650 4850 5150 4850
+Wire Wire Line
+	5650 4950 5150 4950
+Wire Wire Line
+	5650 5050 5150 5050
+Wire Wire Line
+	5650 5150 5150 5150
+Wire Wire Line
+	6150 4650 6650 4650
+Wire Wire Line
+	6150 4750 6650 4750
+Wire Wire Line
+	6150 4850 6650 4850
+Wire Wire Line
+	6150 4950 6650 4950
+Wire Wire Line
+	6150 5050 6650 5050
+Text Label 5250 4650 0    50   ~ 0
+MOD1_D0
+Text Label 6200 4650 0    50   ~ 0
+MOD1_D1
+Text Label 5250 4750 0    50   ~ 0
+MOD1_D2
+Text Label 6200 4750 0    50   ~ 0
+MOD1_D3
+Text Label 5250 4850 0    50   ~ 0
+MOD1_D4
+Text Label 6200 4850 0    50   ~ 0
+MOD1_D5
+Text Label 5250 4950 0    50   ~ 0
+MOD1_D6
+Text Label 6200 4950 0    50   ~ 0
+MOD1_D7
+Text Label 5250 5050 0    50   ~ 0
+MOD1_D8
+Text Label 5250 5150 0    50   ~ 0
+MOD1_D10
+Text Label 6200 5050 0    50   ~ 0
+MOD1_D9
+Wire Wire Line
+	6150 5150 6650 5150
+Wire Wire Line
+	6150 5250 6650 5250
+Wire Wire Line
+	6150 5350 6650 5350
+Wire Wire Line
+	5650 5250 5150 5250
+Wire Wire Line
+	5650 5350 5150 5350
+Text Label 6200 5150 0    50   ~ 0
+MOD1_D11
+Text Label 5250 5250 0    50   ~ 0
+MOD1_D12
+Text Label 6200 5250 0    50   ~ 0
+MOD1_D13
+Text Label 5250 5350 0    50   ~ 0
+MOD1_D14
+Text Label 6200 5350 0    50   ~ 0
+MOD1_D15
+Entry Wire Line
+	5050 4550 5150 4650
+Entry Wire Line
+	5050 4650 5150 4750
+Entry Wire Line
+	5050 4750 5150 4850
+Entry Wire Line
+	5050 4850 5150 4950
+Entry Wire Line
+	5050 4950 5150 5050
+Entry Wire Line
+	5050 5050 5150 5150
+Entry Wire Line
+	5050 5150 5150 5250
+Entry Wire Line
+	5050 5250 5150 5350
+Entry Wire Line
+	6650 4650 6750 4750
+Entry Wire Line
+	6650 4750 6750 4850
+Entry Wire Line
+	6650 4850 6750 4950
+Entry Wire Line
+	6650 4950 6750 5050
+Entry Wire Line
+	6650 5050 6750 5150
+Entry Wire Line
+	6650 5150 6750 5250
+Entry Wire Line
+	6650 5250 6750 5350
+Wire Wire Line
+	6150 5450 6400 5450
+Wire Wire Line
+	6400 5450 6400 5550
+Wire Wire Line
+	6400 5550 6950 5550
+Wire Wire Line
+	6950 5450 6950 5550
+Entry Wire Line
+	6650 5350 6750 5450
+Wire Bus Line
+	6750 4150 5050 4150
+Connection ~ 5050 4150
+Wire Bus Line
+	5050 4150 4550 4150
+Text Label 5650 4150 0    50   ~ 0
+MOD1_D[0..15]
+Text HLabel 4550 4150 0    50   BiDi ~ 0
+MOD1_D[0..15]
+Wire Bus Line
+	6750 1850 6750 3150
+Wire Bus Line
+	5050 1850 5050 2950
+Wire Bus Line
+	6750 4150 6750 5450
+Wire Bus Line
+	5050 4150 5050 5250
+$EndSCHEMATC

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GPIFII_J6
+D Cypress FX3 J6 Header pins
+$ENDCMP
+#
+$CMP GPIFII_J7
+D Cypress FX3 J6 Header pins
+$ENDCMP
+#
+#End Doc Library
