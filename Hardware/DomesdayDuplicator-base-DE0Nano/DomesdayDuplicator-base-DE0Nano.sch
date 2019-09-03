@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Domesday Duplicator Base - DE0-Nano/FX3"
 Date "2019-09-02"
 Rev "1.0"
@@ -82,4 +82,10 @@ Wire Wire Line
 	6100 4100 6100 4400
 Wire Wire Line
 	6100 4400 6550 4400
+$Sheet
+S 3950 6550 750  950 
+U 5D6FD423
+F0 "Fiducials and Mounting" 50
+F1 "fiducials-mounting.sch" 50
+$EndSheet
 $EndSCHEMATC
