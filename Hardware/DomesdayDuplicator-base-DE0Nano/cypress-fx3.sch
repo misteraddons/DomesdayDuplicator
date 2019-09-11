@@ -455,11 +455,11 @@ F 3 "~" H 5500 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 6600 5500 6350
+Connection ~ 5500 6350
+Wire Wire Line
+	5500 6350 5100 6350
 Wire Bus Line
 	4500 1550 4500 3000
 Wire Bus Line
 	7650 1550 7650 6050
-Connection ~ 5500 6350
-Wire Wire Line
-	5500 6350 5100 6350
 $EndSCHEMATC

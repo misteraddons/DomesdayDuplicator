@@ -47,4 +47,15 @@ F 3 "~" H 5550 4150 50  0001 C CNN
 	1    5550 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H701
+U 1 1 5D764730
+P 5550 4750
+F 0 "H701" H 5650 4796 50  0000 L CNN
+F 1 "MountingHole" H 5650 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5550 4750 50  0001 C CNN
+F 3 "~" H 5550 4750 50  0001 C CNN
+	1    5550 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
