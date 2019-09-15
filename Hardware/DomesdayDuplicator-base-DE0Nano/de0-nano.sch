@@ -15,25 +15,14 @@ Comment3 "DE0-Nano Headers"
 Comment4 ""
 $EndDescr
 $Comp
-L DE0-Nano-Headers:GPIO-0 J201
-U 1 1 5D7279C0
-P 3450 2600
-F 0 "J201" H 3450 3815 50  0000 C CNN
-F 1 "GPIO-0" H 3450 3724 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3450 1500 50  0001 C CNN
-F 3 "" H 2800 4650 50  0001 C CNN
-	1    3450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L DE0-Nano-Headers:GPIO-1 J202
 U 1 1 5D729381
-P 3450 5400
-F 0 "J202" H 3450 6615 50  0000 C CNN
-F 1 "GPIO-1" H 3450 6524 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3450 4300 50  0001 C CNN
-F 3 "" H 550 6800 50  0001 C CNN
-	1    3450 5400
+P 3450 2600
+F 0 "J202" H 3450 3815 50  0000 C CNN
+F 1 "GPIO-1" H 3450 3724 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3450 1500 50  0001 C CNN
+F 3 "" H 550 4000 50  0001 C CNN
+	1    3450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -42,7 +31,7 @@ U 1 1 5D72B839
 P 8300 4200
 F 0 "J203" H 8300 5065 50  0000 C CNN
 F 1 "GPIO-2" H 8300 4974 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 8300 3450 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal" H 8300 3450 50  0001 C CNN
 F 3 "" H 7800 4900 50  0001 C CNN
 	1    8300 4200
 	1    0    0    -1  
@@ -74,31 +63,31 @@ Wire Wire Line
 Wire Wire Line
 	8950 4300 9450 4300
 Text Label 7200 3800 0    50   ~ 0
-USB_CTL0
+USB_CTL12
 Text Label 7200 3900 0    50   ~ 0
-USB_CTL2
+USB_CTL10
 Text Label 7200 4000 0    50   ~ 0
-USB_CTL4
+USB_CTL8
 Text Label 7200 4100 0    50   ~ 0
 USB_CTL6
 Text Label 7200 4200 0    50   ~ 0
-USB_CTL8
+USB_CTL4
 Text Label 7200 4300 0    50   ~ 0
-USB_CTL10
+USB_CTL2
 Text Label 7200 4400 0    50   ~ 0
-USB_CTL12
+USB_CTL0
 Text Label 9000 3800 0    50   ~ 0
-USB_CTL1
-Text Label 9000 3900 0    50   ~ 0
-USB_CTL3
-Text Label 9000 4000 0    50   ~ 0
-USB_CTL5
-Text Label 9000 4100 0    50   ~ 0
-USB_CTL7
-Text Label 9000 4200 0    50   ~ 0
-USB_CTL9
-Text Label 9000 4300 0    50   ~ 0
 USB_CTL11
+Text Label 9000 3900 0    50   ~ 0
+USB_CTL9
+Text Label 9000 4000 0    50   ~ 0
+USB_CTL7
+Text Label 9000 4100 0    50   ~ 0
+USB_CTL5
+Text Label 9000 4200 0    50   ~ 0
+USB_CTL3
+Text Label 9000 4300 0    50   ~ 0
+USB_CTL1
 Entry Wire Line
 	7050 3700 7150 3800
 Entry Wire Line
@@ -168,31 +157,29 @@ Wire Wire Line
 Wire Wire Line
 	2850 3450 1850 3450
 Text Label 4100 1650 0    50   ~ 0
-USB_DATA0
+USB_DATA16
 Text Label 2300 1850 0    50   ~ 0
-USB_DATA2
+USB_DATA0
 Text Label 4100 1750 0    50   ~ 0
-USB_DATA1
+USB_DATA17
 Text Label 4100 1850 0    50   ~ 0
-USB_DATA3
+USB_DATA1
 Text Label 2300 1950 0    50   ~ 0
-USB_DATA4
-Text Label 4100 1950 0    50   ~ 0
-USB_DATA5
+USB_DATA2
 Text Label 2300 2050 0    50   ~ 0
-USB_DATA6
+USB_DATA3
 Text Label 4100 2050 0    50   ~ 0
-USB_DATA7
+USB_DATA18
 Text Label 2300 2250 0    50   ~ 0
-USB_DATA8
+USB_DATA4
 Text Label 4100 2250 0    50   ~ 0
-USB_DATA9
+USB_DATA19
 Text Label 2300 2350 0    50   ~ 0
-USB_DATA10
+USB_DATA5
 Text Label 4100 2350 0    50   ~ 0
-USB_DATA11
+USB_DATA20
 Text Label 2300 2450 0    50   ~ 0
-USB_DATA12
+USB_DATA6
 Wire Wire Line
 	1850 1850 2850 1850
 Wire Wire Line
@@ -212,51 +199,47 @@ Wire Wire Line
 Wire Wire Line
 	4050 1850 5050 1850
 Wire Wire Line
-	4050 1950 5050 1950
-Wire Wire Line
 	4050 2050 5050 2050
 Wire Wire Line
 	4050 2250 5050 2250
 Wire Wire Line
 	4050 2350 5050 2350
 Text Label 4100 2450 0    50   ~ 0
-USB_DATA13
-Text Label 2300 2550 0    50   ~ 0
-USB_DATA14
-Text Label 4100 2550 0    50   ~ 0
-USB_DATA15
-Text Label 2300 2650 0    50   ~ 0
-USB_DATA16
-Text Label 4100 2650 0    50   ~ 0
-USB_DATA17
-Text Label 2300 2750 0    50   ~ 0
-USB_DATA18
-Text Label 4100 2750 0    50   ~ 0
-USB_DATA19
-Text Label 2300 2850 0    50   ~ 0
-USB_DATA20
-Text Label 4100 2850 0    50   ~ 0
 USB_DATA21
-Text Label 2300 2950 0    50   ~ 0
+Text Label 2300 2550 0    50   ~ 0
+USB_DATA7
+Text Label 4100 2550 0    50   ~ 0
 USB_DATA22
-Text Label 4100 2950 0    50   ~ 0
+Text Label 2300 2650 0    50   ~ 0
+USB_DATA8
+Text Label 4100 2650 0    50   ~ 0
 USB_DATA23
-Text Label 2300 3150 0    50   ~ 0
-USB_DATA24
-Text Label 4100 3150 0    50   ~ 0
+Text Label 2300 2750 0    50   ~ 0
+USB_DATA9
+Text Label 2300 2850 0    50   ~ 0
+USB_DATA10
+Text Label 4100 2850 0    50   ~ 0
 USB_DATA25
-Text Label 2300 3250 0    50   ~ 0
+Text Label 2300 2950 0    50   ~ 0
+USB_DATA11
+Text Label 4100 2950 0    50   ~ 0
 USB_DATA26
-Text Label 4100 3250 0    50   ~ 0
+Text Label 2300 3150 0    50   ~ 0
+USB_DATA12
+Text Label 4100 3150 0    50   ~ 0
 USB_DATA27
-Text Label 2300 3350 0    50   ~ 0
+Text Label 2300 3250 0    50   ~ 0
+USB_DATA13
+Text Label 4100 3250 0    50   ~ 0
 USB_DATA28
+Text Label 2300 3350 0    50   ~ 0
+USB_DATA14
 Text Label 4100 3350 0    50   ~ 0
 USB_DATA29
 Text Label 2300 3450 0    50   ~ 0
-USB_DATA30
+USB_DATA15
 Text Label 4100 3450 0    50   ~ 0
-USB_DATA31
+USB_DATA30
 Wire Wire Line
 	2850 4650 1850 4650
 Wire Wire Line
@@ -288,8 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 6350 1750 6350
 Wire Wire Line
-	4050 4450 5150 4450
-Wire Wire Line
 	4050 4550 5150 4550
 Wire Wire Line
 	4050 4650 5150 4650
@@ -306,8 +287,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 5350 5150 5350
 Wire Wire Line
-	4050 5450 5050 5450
-Wire Wire Line
 	4050 5550 5050 5550
 Wire Wire Line
 	4050 5650 5050 5650
@@ -321,70 +300,66 @@ Wire Wire Line
 	4050 6150 5050 6150
 Wire Wire Line
 	4050 6250 5050 6250
-Text Label 4100 4450 0    50   ~ 0
-MOD0_D0
 Text Label 4100 4550 0    50   ~ 0
-MOD0_D1
-Text Label 4100 4650 0    50   ~ 0
-MOD0_D3
-Text Label 2300 4650 0    50   ~ 0
-MOD0_D2
-Text Label 2300 4750 0    50   ~ 0
-MOD0_D4
-Text Label 4100 4750 0    50   ~ 0
-MOD0_D5
-Text Label 2300 4850 0    50   ~ 0
-MOD0_D6
-Text Label 4100 4850 0    50   ~ 0
-MOD0_D7
-Text Label 2300 5050 0    50   ~ 0
-MOD0_D8
-Text Label 4100 5050 0    50   ~ 0
-MOD0_D9
-Text Label 2300 5150 0    50   ~ 0
-MOD0_D10
-Text Label 4100 5150 0    50   ~ 0
-MOD0_D11
-Text Label 2300 5250 0    50   ~ 0
-MOD0_D12
-Text Label 4100 5250 0    50   ~ 0
-MOD0_D13
-Text Label 2300 5350 0    50   ~ 0
-MOD0_D14
-Text Label 4100 5350 0    50   ~ 0
-MOD0_D15
-Text Label 4100 5450 0    50   ~ 0
-MOD1_D0
-Text Label 2300 5550 0    50   ~ 0
-MOD1_D1
-Text Label 4100 5550 0    50   ~ 0
-MOD1_D2
-Text Label 2300 5650 0    50   ~ 0
-MOD1_D3
-Text Label 4100 5650 0    50   ~ 0
-MOD1_D4
-Text Label 2300 5750 0    50   ~ 0
-MOD1_D5
-Text Label 4100 5750 0    50   ~ 0
-MOD1_D6
-Text Label 2300 5950 0    50   ~ 0
-MOD1_D7
-Text Label 4100 5950 0    50   ~ 0
-MOD1_D8
-Text Label 2300 6050 0    50   ~ 0
-MOD1_D9
-Text Label 4100 6050 0    50   ~ 0
-MOD1_D10
-Text Label 2300 6150 0    50   ~ 0
-MOD1_D11
-Text Label 4100 6150 0    50   ~ 0
-MOD1_D12
-Text Label 2300 6250 0    50   ~ 0
-MOD1_D13
-Text Label 4100 6250 0    50   ~ 0
-MOD1_D14
-Text Label 2300 6350 0    50   ~ 0
 MOD1_D15
+Text Label 4100 4650 0    50   ~ 0
+MOD1_D13
+Text Label 2300 4650 0    50   ~ 0
+MOD1_D14
+Text Label 2300 4750 0    50   ~ 0
+MOD1_D12
+Text Label 4100 4750 0    50   ~ 0
+MOD1_D11
+Text Label 2300 4850 0    50   ~ 0
+MOD1_D10
+Text Label 4100 4850 0    50   ~ 0
+MOD1_D9
+Text Label 2300 5050 0    50   ~ 0
+MOD1_D8
+Text Label 4100 5050 0    50   ~ 0
+MOD1_D7
+Text Label 2300 5150 0    50   ~ 0
+MOD1_D6
+Text Label 4100 5150 0    50   ~ 0
+MOD1_D5
+Text Label 2300 5250 0    50   ~ 0
+MOD1_D4
+Text Label 4100 5250 0    50   ~ 0
+MOD1_D3
+Text Label 2300 5350 0    50   ~ 0
+MOD1_D2
+Text Label 4100 5350 0    50   ~ 0
+MOD1_D1
+Text Label 2300 5550 0    50   ~ 0
+MOD0_D15
+Text Label 4100 5550 0    50   ~ 0
+MOD0_D14
+Text Label 2300 5650 0    50   ~ 0
+MOD0_D13
+Text Label 4100 5650 0    50   ~ 0
+MOD0_D12
+Text Label 2300 5750 0    50   ~ 0
+MOD0_D11
+Text Label 4100 5750 0    50   ~ 0
+MOD0_D10
+Text Label 2300 5950 0    50   ~ 0
+MOD0_D9
+Text Label 4100 5950 0    50   ~ 0
+MOD0_D8
+Text Label 2300 6050 0    50   ~ 0
+MOD0_D7
+Text Label 4100 6050 0    50   ~ 0
+MOD0_D6
+Text Label 2300 6150 0    50   ~ 0
+MOD0_D5
+Text Label 4100 6150 0    50   ~ 0
+MOD0_D4
+Text Label 2300 6250 0    50   ~ 0
+MOD0_D3
+Text Label 4100 6250 0    50   ~ 0
+MOD0_D2
+Text Label 2300 6350 0    50   ~ 0
+MOD0_D1
 Entry Wire Line
 	1750 1750 1850 1850
 Entry Wire Line
@@ -421,8 +396,6 @@ Entry Wire Line
 	5050 1750 5150 1850
 Entry Wire Line
 	5050 1850 5150 1950
-Entry Wire Line
-	5050 1950 5150 2050
 Entry Wire Line
 	5050 2050 5150 2150
 Entry Wire Line
@@ -464,8 +437,6 @@ Entry Wire Line
 Entry Wire Line
 	1750 5250 1850 5350
 Entry Wire Line
-	5150 4450 5250 4550
-Entry Wire Line
 	5150 4550 5250 4650
 Entry Wire Line
 	5150 4650 5250 4750
@@ -500,8 +471,6 @@ Entry Wire Line
 Entry Wire Line
 	1650 6250 1750 6350
 Entry Wire Line
-	5050 5450 5150 5550
-Entry Wire Line
 	5050 5550 5150 5650
 Entry Wire Line
 	5050 5650 5150 5750
@@ -519,61 +488,24 @@ Wire Bus Line
 	5150 6650 1650 6650
 Text Label 3200 4100 0    50   ~ 0
 MOD0_D[0..15]
-Text Label 3150 6650 0    50   ~ 0
-MOD1_D[0..15]
 Wire Bus Line
 	1750 1250 5150 1250
 NoConn ~ 2850 1650
 NoConn ~ 2850 1750
 NoConn ~ 2850 4450
 NoConn ~ 2850 4550
-NoConn ~ 4050 3550
-Wire Wire Line
-	2850 5450 2700 5450
-Text HLabel 2700 5450 0    50   Output ~ 0
+Text HLabel 4150 5450 2    50   Output ~ 0
 MOD0_CLK
-Text HLabel 4150 6350 2    50   Output ~ 0
+Text HLabel 4150 4450 2    50   Output ~ 0
 MOD1_CLK
-Wire Wire Line
-	4050 6350 4150 6350
-Text HLabel 2750 3550 0    50   Output ~ 0
+Text HLabel 4150 1950 2    50   Output ~ 0
 USB_PCLK
-Wire Wire Line
-	2750 3550 2850 3550
 Wire Wire Line
 	4050 2150 4650 2150
 Wire Wire Line
 	4650 2150 4650 3050
-$Comp
-L power:GND #PWR0203
-U 1 1 5D9000FE
-P 4650 6400
-F 0 "#PWR0203" H 4650 6150 50  0001 C CNN
-F 1 "GND" H 4655 6227 50  0000 C CNN
-F 2 "" H 4650 6400 50  0001 C CNN
-F 3 "" H 4650 6400 50  0001 C CNN
-	1    4650 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 4950 4650 4950
-Connection ~ 4650 4950
-Wire Wire Line
-	4650 4950 4650 5850
-Wire Wire Line
-	4050 5850 4650 5850
-Connection ~ 4650 5850
-Wire Wire Line
-	4650 5850 4650 6400
 Wire Wire Line
 	4050 3050 4650 3050
-Connection ~ 4650 3050
-Wire Wire Line
-	4650 3050 4650 4950
-Wire Wire Line
-	2850 4950 2250 4950
-Wire Wire Line
-	2250 4950 2250 4450
 Wire Wire Line
 	2850 2150 2250 2150
 Wire Wire Line
@@ -587,17 +519,6 @@ F 1 "+5V" H 2265 1823 50  0000 C CNN
 F 2 "" H 2250 1650 50  0001 C CNN
 F 3 "" H 2250 1650 50  0001 C CNN
 	1    2250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0202
-U 1 1 5D932D5F
-P 2250 4450
-F 0 "#PWR0202" H 2250 4300 50  0001 C CNN
-F 1 "+5V" H 2265 4623 50  0000 C CNN
-F 2 "" H 2250 4450 50  0001 C CNN
-F 3 "" H 2250 4450 50  0001 C CNN
-	1    2250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -646,23 +567,106 @@ Text HLabel 5550 4100 2    50   BiDi ~ 0
 MOD0_D[0..15]
 Text HLabel 5500 6650 2    50   BiDi ~ 0
 MOD1_D[0..15]
-NoConn ~ 2850 5850
 NoConn ~ 2850 3050
 NoConn ~ 7650 3600
+$Comp
+L power:+5V #PWR0202
+U 1 1 5D932D5F
+P 2250 4450
+F 0 "#PWR0202" H 2250 4300 50  0001 C CNN
+F 1 "+5V" H 2265 4623 50  0000 C CNN
+F 2 "" H 2250 4450 50  0001 C CNN
+F 3 "" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4950 2250 4950
+Wire Wire Line
+	2250 4950 2250 4450
+NoConn ~ 2850 5850
+$Comp
+L power:GND #PWR0203
+U 1 1 5D9000FE
+P 4650 6400
+F 0 "#PWR0203" H 4650 6150 50  0001 C CNN
+F 1 "GND" H 4655 6227 50  0000 C CNN
+F 2 "" H 4650 6400 50  0001 C CNN
+F 3 "" H 4650 6400 50  0001 C CNN
+	1    4650 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5850 4650 5850
+Wire Wire Line
+	4650 5850 4650 6400
+Connection ~ 4650 5850
+Wire Wire Line
+	4650 4950 4650 5850
+Wire Wire Line
+	4050 4950 4650 4950
+Connection ~ 4650 4950
+Connection ~ 4650 3050
+Wire Wire Line
+	4650 3050 4650 4950
+Text Label 3150 6650 0    50   ~ 0
+MOD1_D[0..15]
+$Comp
+L DE0-Nano-Headers:GPIO-0 J201
+U 1 1 5D7279C0
+P 3450 5400
+F 0 "J201" H 3450 6615 50  0000 C CNN
+F 1 "GPIO-0" H 3450 6524 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3450 4300 50  0001 C CNN
+F 3 "" H 2800 7450 50  0001 C CNN
+	1    3450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6350 5050 6350
+Entry Wire Line
+	5050 6350 5150 6450
+Text Label 4100 6350 0    50   ~ 0
+MOD0_D0
+Wire Wire Line
+	4150 5450 4050 5450
+Wire Wire Line
+	2850 5450 1850 5450
+Entry Wire Line
+	1750 5350 1850 5450
+Text Label 2300 5450 0    50   ~ 0
+MOD1_D0
+Wire Wire Line
+	4150 4450 4050 4450
+Text Label 4100 2750 0    50   ~ 0
+USB_DATA24
+NoConn ~ 2850 3550
+Text Notes 2250 1050 0    50   ~ 0
+0 to 15 on this side\n
+Text Notes 4050 1050 0    50   ~ 0
+16-30 on this side\n
+Wire Wire Line
+	4050 1950 4150 1950
+Wire Wire Line
+	4050 3550 5050 3550
+Entry Wire Line
+	5050 3550 5150 3650
 Wire Bus Line
 	7050 3000 7050 4300
 Wire Bus Line
 	9550 3000 9550 4400
 Wire Bus Line
-	1750 4100 1750 5250
-Wire Bus Line
-	5250 4100 5250 5450
+	1750 4100 1750 5350
 Wire Bus Line
 	5150 5550 5150 6650
 Wire Bus Line
 	1650 5450 1650 6650
 Wire Bus Line
+	5250 4100 5250 5450
+Wire Bus Line
 	1750 1250 1750 3350
 Wire Bus Line
-	5150 1250 5150 3550
+	5150 1250 5150 3650
+Text Label 4100 3550 0    50   ~ 0
+USB_DATA31
 $EndSCHEMATC

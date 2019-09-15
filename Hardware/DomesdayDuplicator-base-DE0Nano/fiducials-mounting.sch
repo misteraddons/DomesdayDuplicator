@@ -17,78 +17,104 @@ $EndDescr
 $Comp
 L Mechanical:Fiducial FID601
 U 1 1 5D6FD53F
-P 5400 3450
-F 0 "FID601" H 5485 3496 50  0000 L CNN
-F 1 "Fiducial" H 5485 3405 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5400 3450 50  0001 C CNN
-F 3 "~" H 5400 3450 50  0001 C CNN
-	1    5400 3450
+P 5350 2650
+F 0 "FID601" H 5435 2696 50  0000 L CNN
+F 1 "Fiducial" H 5435 2605 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5350 2650 50  0001 C CNN
+F 3 "~" H 5350 2650 50  0001 C CNN
+	1    5350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID603
 U 1 1 5D6FE714
-P 5900 3450
-F 0 "FID603" H 5985 3496 50  0000 L CNN
-F 1 "Fiducial" H 5985 3405 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5900 3450 50  0001 C CNN
-F 3 "~" H 5900 3450 50  0001 C CNN
-	1    5900 3450
+P 5850 2650
+F 0 "FID603" H 5935 2696 50  0000 L CNN
+F 1 "Fiducial" H 5935 2605 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5850 2650 50  0001 C CNN
+F 3 "~" H 5850 2650 50  0001 C CNN
+	1    5850 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID602
 U 1 1 5D6FEF0E
-P 5400 3650
-F 0 "FID602" H 5485 3696 50  0000 L CNN
-F 1 "Fiducial" H 5485 3605 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5400 3650 50  0001 C CNN
-F 3 "~" H 5400 3650 50  0001 C CNN
-	1    5400 3650
+P 5350 2850
+F 0 "FID602" H 5435 2896 50  0000 L CNN
+F 1 "Fiducial" H 5435 2805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 5350 2850 50  0001 C CNN
+F 3 "~" H 5350 2850 50  0001 C CNN
+	1    5350 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H601
 U 1 1 5D700022
-P 5400 4450
-F 0 "H601" H 5500 4496 50  0000 L CNN
-F 1 "MountingHole" H 5500 4405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 4450 50  0001 C CNN
-F 3 "~" H 5400 4450 50  0001 C CNN
-	1    5400 4450
+P 5350 3650
+F 0 "H601" H 5450 3696 50  0000 L CNN
+F 1 "MountingHole" H 5450 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5350 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5350 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H603
+L Mechanical:MountingHole H604
 U 1 1 5D70081D
-P 6150 4450
-F 0 "H603" H 6250 4496 50  0000 L CNN
-F 1 "MountingHole" H 6250 4405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 4450 50  0001 C CNN
-F 3 "~" H 6150 4450 50  0001 C CNN
-	1    6150 4450
+P 6100 3650
+F 0 "H604" H 6200 3696 50  0000 L CNN
+F 1 "MountingHole" H 6200 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6100 3650 50  0001 C CNN
+F 3 "~" H 6100 3650 50  0001 C CNN
+	1    6100 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H602
 U 1 1 5D7013F5
-P 5400 4700
-F 0 "H602" H 5500 4746 50  0000 L CNN
-F 1 "MountingHole" H 5500 4655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5400 4700 50  0001 C CNN
-F 3 "~" H 5400 4700 50  0001 C CNN
-	1    5400 4700
+P 5350 3900
+F 0 "H602" H 5450 3946 50  0000 L CNN
+F 1 "MountingHole" H 5450 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5350 3900 50  0001 C CNN
+F 3 "~" H 5350 3900 50  0001 C CNN
+	1    5350 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H604
+L Mechanical:MountingHole H605
 U 1 1 5D701DBC
-P 6150 4700
-F 0 "H604" H 6250 4746 50  0000 L CNN
-F 1 "MountingHole" H 6250 4655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 4700 50  0001 C CNN
-F 3 "~" H 6150 4700 50  0001 C CNN
-	1    6150 4700
+P 6100 3900
+F 0 "H605" H 6200 3946 50  0000 L CNN
+F 1 "MountingHole" H 6200 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6100 3900 50  0001 C CNN
+F 3 "~" H 6100 3900 50  0001 C CNN
+	1    6100 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H603
+U 1 1 5D7D3C28
+P 5350 4800
+F 0 "H603" H 5450 4846 50  0000 L CNN
+F 1 "MountingHole" H 5450 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5350 4800 50  0001 C CNN
+F 3 "~" H 5350 4800 50  0001 C CNN
+	1    5350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H606
+U 1 1 5D7D491D
+P 6100 4800
+F 0 "H606" H 6200 4846 50  0000 L CNN
+F 1 "MountingHole" H 6200 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6100 4800 50  0001 C CNN
+F 3 "~" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 4600 0    50   ~ 0
+Module mounting holes
+Text Notes 5300 3450 0    50   ~ 0
+Board mounting holes
 $EndSCHEMATC
