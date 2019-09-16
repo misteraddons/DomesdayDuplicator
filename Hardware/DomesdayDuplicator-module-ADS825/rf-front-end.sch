@@ -20,7 +20,7 @@ U 1 1 5D68E713
 P 2900 3150
 F 0 "J201" H 2828 3388 50  0000 C CNN
 F 1 "RF_In_50R" H 2828 3297 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2900 3150 50  0001 C CNN
+F 2 "digikey-footprints:RF_SMA_RightAngle_5-1814400-1" H 2900 3150 50  0001 C CNN
 F 3 " ~" H 2900 3150 50  0001 C CNN
 	1    2900 3150
 	-1   0    0    -1  

@@ -20,7 +20,7 @@ U 1 1 5DCD3559
 P 4550 3350
 F 0 "J501" H 4478 3588 50  0000 C CNN
 F 1 "Trigger_In_50R" H 4478 3497 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4550 3350 50  0001 C CNN
+F 2 "digikey-footprints:RF_SMA_RightAngle_5-1814400-1" H 4550 3350 50  0001 C CNN
 F 3 " ~" H 4550 3350 50  0001 C CNN
 	1    4550 3350
 	-1   0    0    -1  
